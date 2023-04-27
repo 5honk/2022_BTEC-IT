@@ -1,0 +1,10 @@
+.nav-m {
+    position: fixed;
+    z-index: 10;
+    top: 10%;
+}
+
+.nav-m a {
+    color: black;
+    text-decoration: none;
+}

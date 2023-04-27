@@ -1,0 +1,512 @@
+/*All Elements*/
+    a {
+        font-family: sans-serif;
+    }
+    
+
+    p {
+      font-family: sans-serif;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    td {
+        font-family: sans-serif;
+    }
+
+/*Navigation Bar*/
+    .Navigation  {
+/*Colours*/
+        background-color: darkgreen;
+        box-shadow:0 3px 10px rgb(0 0 0 / 20%);
+        color:whitesmoke;
+/*Positioning*/
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        min-width:100%; 
+        min-height: 65px;
+        z-index: 100;
+       
+     }
+/*Link edits*/
+     .Navigation a {
+        text-decoration: none;
+        color: white;
+        padding-right: 50px;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 10px;
+        float: left;   
+     }
+ /*Mouse hover change*/
+     .Navigation a:hover{
+      color: grey;
+     }
+     
+/*The underline under every page when visted*/
+     #cn{
+        text-decoration: underline;
+        text-decoration-color: rgba(255, 255, 255, 0.297);
+     }
+
+     #na{
+        text-decoration: underline;
+        text-decoration-color: rgba(255, 255, 255, 0.297);
+     }
+
+     #nc{
+        text-decoration: underline;
+        text-decoration-color: rgba(255, 255, 255, 0.297);
+     }
+
+     #hm{
+        text-decoration: underline;
+        text-decoration-color: rgba(255, 255, 255, 0.297);
+     }
+
+     #in{
+        text-decoration: underline;
+        text-decoration-color: rgba(255, 255, 255, 0.297);
+     }
+
+
+     .Icon {
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        top: 100px;
+        z-index: 10;
+       }
+/*Main Content*/
+     .home1 p {
+      position: fixed;
+      bottom: 10em;
+      left: 80em;
+      text-align: center;
+      text-size-adjust: 10px;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+
+     }
+
+     
+     .homepic {
+    float: left;
+      position: fixed;
+      z-index: 0;
+      scale: 100%;
+      min-width: 100%;
+      right: 90px;
+      bottom: 140px;
+     }
+   
+     .intro p {
+        color: white;
+        background-color: rgba(0, 100, 0, 0.834);
+        z-index: -1;
+        padding: 3px;
+        padding-left: 50px;
+/*padding right for all image elemnts*/
+        padding-right: 100px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        position: absolute;
+        left:745px;
+        top: 20px;
+        font-size: 15px;
+       
+     }
+
+     .E p {
+        position: fixed;
+        z-index: 10;
+        color: white;
+        right: 100px;
+        top: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        z-index: 10000;
+
+     }
+     
+     .king {
+        position: absolute;
+        z-index: 50;
+        left: 670px;
+        scale: 25%;
+        bottom: 62px;
+        background-color: darkgreen;
+        
+     }
+    
+     .map {
+        z-index: -1;
+        position: fixed;
+        bottom: -20px;
+        left: 0px;
+        box-shadow:0 3px 10px rgb(0 0 0 / 20%);
+     }
+
+     .homeback {
+        position: absolute;
+        scale: 100%;
+        z-index: -100;
+        top: 0;
+        opacity: 0.5;
+     }
+
+     .air {
+        position: absolute;
+
+     }
+    
+    .para2 {
+        color: white;
+        background-color: rgba(0, 100, 0, 0.834);
+        position: absolute;
+        z-index: 100;
+        bottom: 100px;
+        right: 0px;
+        padding-left: 1000px;
+        padding-right: 10px;
+        z-index: -1;
+        
+    }
+
+    .coolguy {
+        position: relative;
+        scale: 10%;
+        bottom: 350px;
+        left: 130px;
+        z-index: 10;
+        background-color: darkgreen;
+        padding-bottom: 10px;
+       
+    }
+
+    .air {
+        top: 0px;
+        position: relative;
+        scale: 100%;
+        z-index: -10;
+    }
+
+    .creq {
+        background-color: rgba(0, 100, 0, 0.726);
+        color: white;
+        position: absolute;
+        z-index: 1;
+        right: 800px;
+        top: 100px;
+        padding-left: 50px;
+        padding-right: 30px;
+        text-align: left;
+    }
+
+    .allist  {
+        background-color: rgba(255, 255, 255, 0.808);
+        column-count: 3;
+        position:absolute;
+        z-index: 1;
+        top: 100px;
+        left: 650px;
+        padding-right: 80px;
+        padding-left: 100px;
+        padding-bottom: 76px;
+        padding-top: 30px;
+        
+    }
+
+
+    .allist a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .allist a:hover {
+        color: darkgreen;
+    }
+
+    .bteclist {
+        position: absolute;
+        column-count: 2;
+        left: 650px;
+        top: 500px;
+        background-color:rgba(255, 255, 255, 0.808);
+        padding-right: 400px;
+        padding-left: 100px;
+        padding-bottom: 76px;
+        padding-top: 30px;
+    }
+
+    #nonce {
+        position: absolute;
+        top: 1300px;
+
+    }
+    .bteclist a {
+        position: relative;
+        color: black;
+        text-decoration: none;
+    }
+
+    .bteclist a:hover{
+        color: darkgreen;
+    }
+
+    #reqbtec{
+        position: absolute;
+        color: white;
+        background-color: rgba(0, 100, 0, 0.726);
+        top: 485px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 50px;
+        padding-right: 60px;
+        text-align: left;
+    }
+    
+    #appform{
+        position: fixed;
+        top: 645px;
+        right: 0px;
+        color: white;
+        background-color:rgb(0, 100, 0);
+        text-align: center;
+        text-decoration: none;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+/*Information Page*/
+    .infomap {
+        position: fixed;
+        z-index: 50;
+        left: 0px;
+        top: 49px;
+    
+    }
+
+    .infoinfo {
+        position: absolute;
+        top: 100px;
+        left: 750px;
+        background-color: rgba(0, 100, 0, 0.73);
+        color: white;
+        padding-left: 10px;
+    }
+
+    .contable{
+        z-index: 50;
+        position: absolute;
+        top: 100px;
+        left: 10px;
+        background-color: rgba(0, 100, 0, 0.821);
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        color: white;
+    }
+
+    .contable td{
+        padding-top: 20px;
+        padding-right: 40px;
+    }
+
+    .contable a {
+        color: white;
+        text-decoration: none;
+        
+    }
+
+    .contable a:hover{
+        color: grey;
+    }
+
+    /*Achievements page*/
+
+    .tabtab {
+        position: absolute;
+        scale: 60%;
+        right: 450px;
+        top: 0px;
+        background-color: white;
+        padding-top: 30px;
+    }
+
+    .acinfo {
+        position: absolute;
+        left: 770px;
+        top: 250px;
+        background-color: rgba(0, 100, 0, 0.737);
+        color: white;
+        padding-left: 100px;
+    }
+    #achalevel{
+        font-size: 20px;
+    }
+     .abtab{
+        position:absolute;
+        scale: 57%;
+        right: 410px;
+        top: 350px;
+        background-color: white;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+     }
+
+     .acgcse {
+        position: absolute;
+        left: 770px;
+        top:800px;
+        background-color: rgba(0, 100, 0, 0.722);
+        color: white;
+        padding-left: 100px;
+        z-index: -1;
+     }
+     #ppp{
+        font-size: 20px;
+     }
+  
+     /*Form and Calculator page*/
+     #cal{
+        position:fixed;
+        z-index: 10;
+        background-color: darkgreen;
+        color: white;
+        text-decoration: none;
+        padding-bottom: 100px;
+        top: 660px;
+        right: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 30px;
+        padding-left: 30px;
+     }
+     #findform {
+        position:fixed;
+        z-index: 10;
+        background-color: darkgreen;
+        text-decoration: none;
+        color: white;
+        bottom: 0px;
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+     }
+     #mae {
+        position: absolute;
+        z-index: 10;
+        top: 100px;
+
+     }
+     
+     .unoform {
+        position: absolute;
+        top: 550px;
+        left: 10px;
+        display: inline;
+     }
+
+     
+/* Need to find a way of moving the video object*/
+     .video {
+        position: absolute;
+        top: 400px;
+        left: 850px;
+        z-index: -10;
+     }
+
+     input{
+        margin: auto;
+     }
+     
+    .grades {
+        position: absolute;
+        top: 250px;
+        left: 100px;
+        z-index: 100;
+    }
+    .submit {
+        z-index: 100;
+        top: 500px;
+        right: 100px;
+    }
+   
+
+    .sub1 {
+        position: fixed;
+        text-align: center;
+        left: 450px;
+        top: 150px;
+        background-color: darkgreen;
+        color: white;
+        padding: 100px;
+    }
+
+    .sub1 a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .vvideo {
+        position: absolute;
+        top: 850px;
+        left: 50px;
+    }
+
+    .catvideo {
+        position: absolute;
+        top: 400px;
+        left: 800px
+    }
+
+    #CBA {
+        position: absolute;
+        left: 50px;
+        top: 800px;
+    }
+
+    .pickgrade{
+        position: absolute;
+        right: 100px;
+        top: 800px;
+    }
+
+    .evilpenny {
+        position: absolute;
+        top: 60px;
+        left: 30px;
+    }
+
+  .air2 img{
+    opacity: 0.1;
+  }
+
+  .buttcal {
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    z-index: 10000;
+  }
+
+  #subbtn {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
